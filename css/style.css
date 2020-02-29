@@ -38,6 +38,7 @@ header {
 
 a {
     text-decoration: none;
+    color: black;
 }
 
 .menu {
@@ -58,8 +59,10 @@ a {
 
 .dropdown-menu {
     position: absolute;
-    display: none;
+    /* display: none; */
 }
+
+
 
 
 
