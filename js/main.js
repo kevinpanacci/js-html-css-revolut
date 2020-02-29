@@ -1,9 +1,3 @@
-// $('.menu-item').mouseenter(function(){
-//     $(this).addClass('selected');
-// });
-// $('.menu-item').mouseleave(function(){
-//     $(this).removeClass('selected');
-// });
 $('.menu-item > a').click(function(){
     if ($(this).next().is(':visible')){
         $(this).next().slideToggle(50);
