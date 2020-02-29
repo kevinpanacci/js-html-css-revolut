@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 80px;
+}
+
+.container {
+    height: 100%;
+    max-width: 1200px;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.header-left {
+    height: 100%;
+    width: 20%;
+    float: left;
+}
+
+.header-left img {
+    height: 50px;
+    width: auto;
+}
+
+.header-right {
+    height: 100%;
+    width: 80%;
+    float: right;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-item {
+    position: relative;
+    margin-top: 15px;
+}
+
+.menu-item > a {
+    margin-left: 20px;
+    text-transform: uppercase;
+}
+
+.dropdown-menu {
+    position: absolute;
+    display: none;
+}
+
+
+
+/* utilizzare relative e absolute per
+far uscire un elemento dal flusso
+per le finestre che si aprono */
