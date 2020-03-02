@@ -59,17 +59,14 @@ a {
 
 .dropdown-menu {
     position: absolute;
-    /* display: none; */
+    display: none;
 }
 
-.dropdown-menu-item a {
-    margin-top: 2px;
+.dropdown-menu-item  {
+    margin-top: 10px;
+    margin-left: 10px;
 }
 
-
-
-
-
-/* utilizzare relative e absolute per
-far uscire un elemento dal flusso
-per le finestre che si aprono */
+.dropdown-menu-item:first-child  {
+    margin-top: 25px;
+}
